@@ -1,11 +1,11 @@
 # %% Change working directory from the workspace root to the ipynb file location. 
-import os
-try:
-    os.chdir(os.path.join(
-        os.getcwd(), 'mnist_ann'))
-    print(os.getcwd())
-except:
-    pass
+# import os
+# try:
+#     os.chdir(os.path.join(
+#         os.getcwd(), 'mnist_ann'))
+#     print(os.getcwd())
+# except:
+#     pass
 
 import random
 import numpy as np
